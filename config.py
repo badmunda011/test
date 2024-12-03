@@ -10,15 +10,15 @@ API_ID = int(getenv("API_ID", "27079591")) #optional
 API_HASH = getenv("API_HASH", "c81ae4c3dc026ea4bf49842a8ce4a5f9") #optional
 
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "7403621976").split()))
-OWNER_ID = int(getenv("OWNER_ID"))
-MONGO_URL = getenv("MONGO_URL")
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+OWNER_ID = 7009601543
+MONGO_URL = "mongodb+srv://BADMUNDA:BADMYDAD@badhacker.i5nw9na.mongodb.net/"
+BOT_TOKEN = "7656510911:AAHx2GcEV9q_HOQ5NjysO1V2cMdAaVQpz8Y"
 ALIVE_PIC = getenv("ALIVE_PIC", 'https://telegra.ph/file/5badd2112e1e0cdf03a1f.jpg')
 ALIVE_TEXT = getenv("ALIVE_TEXT")
 PM_LOGGER = getenv("PM_LOGGER")
-LOG_GROUP = getenv("LOG_GROUP")
+LOG_GROUP = -1002356967761
 GIT_TOKEN = getenv("GIT_TOKEN") #personal access token
-REPO_URL = getenv("REPO_URL", "https://github.com/TEAMPURVI/ALPHA_USERBOT")
+REPO_URL = getenv("REPO_URL", "https://github.com/badmunda011/test")
 BRANCH = getenv("BRANCH", "main") #don't change
  
 STRING_SESSION1 = getenv("STRING_SESSION1", "")
